@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Joshwa&#039;s Yahoo Automation Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Yahoo Test Cases(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.MailPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyComposeMailTest"/>
+          <include name="verifyMailLabelTest"/>
+          <include name="selectMailPageTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.MailPageTest -->
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyMailLinkTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyCorrectUserNameTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Yahoo Test Cases(failed) -->
+</suite> <!-- Failed suite [Joshwa's Yahoo Automation Test] -->
